@@ -31,7 +31,7 @@
 
 برای راه‌اندازی پروژه ابتدا مخزن را کلون کنید:
 ```sh
-git clone https://github.com/SanjiPk/payment-system.git
+git clone https://github.com/SaraBasiroo/payment-systems.git
 ```
 
 سپس از محیط‌های توسعه مانند IntelliJ IDEA یا Eclipse برای اجرای پروژه استفاده کنید.
