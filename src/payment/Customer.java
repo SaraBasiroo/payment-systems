@@ -12,7 +12,7 @@ public abstract class Customer {
 
     public void makePayment(PaymentStrategy paymentStrategy, double amount) {
         paymentStrategy.pay(amount);
-        paymentHistory.add(paymentStrategy.getPaymentDetails() + "Amount : " + amount);
+        paymentHistory.add(paymentStrategy.getPaymentDetails() + ", Amount : " + amount);
     }
     public void showPaymentHistory() {
         System.out.println("Payment history of " + name + " : ");
